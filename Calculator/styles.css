@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #e5e5e5;
+    display: flex;
+    padding-top: 5rem;
+    justify-content: center;
+    overflow: hidden;
+    margin: 0;
+  }
+
+  .row {
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+  }
+
+  .col-header {
+    width: 25%;
+    box-shadow: 4px 4px 9px rgba(198, 198, 198, 0.36);
+    background: rgba(134, 213, 255);
+    border-radius: 20px;
+    margin-right: 20px;
+    padding: 0.8rem 1rem;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .col-header:hover {
+    background: rgba(134, 213, 255, 0.75);
+    box-shadow: 2px 2px 9px rgba(124, 124, 124, 0.36);
+  }
+
+  .zero {
+    width: 70%;
+    box-shadow: 4px 4px 9px rgba(198, 198, 198, 0.36);
+    background: rgba(134, 213, 255);
+    border-radius: 20px;
+    margin-right: 20px;
+    padding: 0.8rem 1rem;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .text-field__input {
+    display: block;
+    width: 100%;
+    margin-right: 20px;
+    height: calc(2.75rem + 2px);
+    padding: 0.8rem 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgb(80, 86, 90);
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(198, 198, 198, 0.36);
+    border-radius: 20px;
+  }
